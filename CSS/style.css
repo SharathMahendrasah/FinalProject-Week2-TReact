@@ -156,7 +156,6 @@ header {
 
 .landing__info {
     width: 40%;
-    margin-left: 24px;
 }
 
 .landing__img {
@@ -196,6 +195,7 @@ header {
 .landing__customers--img {
     max-width: 800px;
     margin-top: 16px;
+    padding-right: 128px;
 }
 
 /*
