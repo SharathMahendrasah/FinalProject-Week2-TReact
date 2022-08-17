@@ -16,6 +16,16 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 input {
     font-size: 100%;
     font-weight: 500;
@@ -142,7 +152,6 @@ header {
 .landing__page {
     display: flex;
     justify-content: space-between;
-    padding: 62px 24px;
 }
 
 .landing__info {
@@ -189,5 +198,82 @@ header {
     margin-top: 16px;
 }
 
+/*
 
+SERVICES
 
+*/
+
+.services__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.features__subheading {
+    color: #6415ff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 32px 0;
+}
+
+.services__header {
+    color: rgba(36, 62, 99);
+    text-align: center;
+}
+
+.service__para {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(124, 139, 161);
+    line-height: 1.625;
+    width: 100%;
+    max-width: 576px;
+    margin: 32px 0 48px 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__container{
+    padding: 24px;
+    display: flex;
+    width: calc(100% / 3);
+}
+
+.service_container--img {
+    width: 66px;
+    height: 66px;
+    margin: 0;
+    padding: 20px;
+    border: solid #e5e7eb;
+    border-width: 1px;
+    border-radius: 9999px;
+
+}
+
+.service__img {
+    width: 24px;
+    height: 24px;
+}
+
+.services__text--container {
+    margin: 8px 0 0 16px;
+}
+
+.service__subtitle {
+    color: rgba(36, 62, 99);
+}
+
+.service__description {
+    color: rgba(124, 139, 161);
+    line-height: 2;
+    width: 100%;
+    max-width: 210px;
+    margin-top: 16px;
+    font-weight: 500;
+}
