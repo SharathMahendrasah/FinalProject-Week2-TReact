@@ -19,6 +19,7 @@ h1 {
 h2 {
     font-size: 48px;
     font-weight: 900;
+    color: rgba(36, 62, 99);
 }
 
 h3 {
@@ -33,6 +34,15 @@ input {
     border-radius: 9999px;
     border-width: 2px;
     width: 100%
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgba(124, 139, 161);
 }
 
 button {
@@ -164,10 +174,10 @@ header {
 
 .landing__para {
     font-size: 18px;
-    color: rgba(36, 62, 99);
     line-height: 1.8;
     margin: 32px 0;
     width: 100%;
+    color: rgba(36, 62, 99);
 }
 
 .landing__email {
@@ -227,8 +237,7 @@ SERVICES
     font-size: 18px;
     text-align: center;
     font-weight: 500;
-    color: rgba(124, 139, 161);
-    line-height: 1.625;
+    line-height: 1.625em;
     width: 100%;
     max-width: 576px;
     margin: 32px 0 48px 0;
@@ -277,3 +286,62 @@ SERVICES
     margin-top: 16px;
     font-weight: 500;
 }
+
+/*
+
+WORK
+
+*/
+
+.work__container {
+    display: flex;
+    align-items: center;
+    padding-top: 96px;
+    
+}
+
+.work__container--description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.work__subheading {
+    color: #6415ff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.work {
+    margin-top: 16px;
+}
+
+.work__description--para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.625rem;
+    margin-top: 16px;
+}
+
+.work__button {
+    font-size: 14px;
+    margin: 32px 0 0 0;
+    position: relative;
+    padding: 12px 32px;
+    border-color: #6415ff;
+    background-color: #6415ff;
+    color: rgba(247, 250, 252);
+    transition: 300ms ease;
+}
+
+.work__container--img {
+    display: block;
+    width: 50%;
+    height: auto;
+    border: solid #e5e7eb;
+    border-width: 1px; 
+}
+
+
+
