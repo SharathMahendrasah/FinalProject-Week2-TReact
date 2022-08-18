@@ -11,6 +11,10 @@ a {
     color: #243e63;
 }
 
+div {
+    display: block;
+}
+
 h1 {
     font-size: 42px;
     font-weight: 700;
@@ -27,6 +31,18 @@ h3 {
     font-weight: 700;
 }
 
+h4 {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h6 {
+    color: #243e63;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+}
+
 input {
     font-size: 100%;
     font-weight: 500;
@@ -37,11 +53,6 @@ input {
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     color: rgba(124, 139, 161);
 }
 
@@ -221,7 +232,7 @@ SERVICES
     padding: 80px 0;
 }
 
-.features__subheading {
+.features__heading {
     color: #6415ff;
     font-weight: 700;
     letter-spacing: 2px;
@@ -296,7 +307,7 @@ WORK
 .work__container {
     display: flex;
     align-items: center;
-    padding-top: 96px;
+    padding: 96px 0;
     
 }
 
@@ -307,7 +318,7 @@ WORK
     margin-right: 40px;
 }
 
-.work__subheading {
+.work__heading {
     color: #6415ff;
     font-weight: 700;
     letter-spacing: 2px;
@@ -343,5 +354,63 @@ WORK
     border-width: 1px; 
 }
 
+/*
 
+STEPS
+
+*/
+
+.steps__container {
+    padding: 96px 0;
+    display: flex;
+}
+
+.steps__container__img {
+    width: 50%;
+    margin: auto 0;
+}
+
+.steps__container--description {
+    width: 50%;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__header {
+    margin-top: 16px;
+}
+
+.steps__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__item {
+    margin-top: 32px;
+    display: flex;
+}
+
+.step__number {
+    color: rgba(203, 213, 224);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.step__text {
+    width: 320px;
+    max-width: 100%;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.steps__para {
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 12px;
+    font-size: 14px;
+}
 
